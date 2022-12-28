@@ -34,3 +34,11 @@
   opacity: 0.55;
   font-size: medium;
 }
+
+.job a {
+  opacity: 1;
+}
+
+.job a:hover {
+  opacity: 0.55;
+}
