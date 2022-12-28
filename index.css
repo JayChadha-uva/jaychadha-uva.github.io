@@ -1,0 +1,16 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.nav-pills .nav-link {
+  color: #fff;
+  opacity: 0.55;
+}
+
+.nav-pills .nav-link:hover {
+  color: #fff;
+  opacity: 1;
+}
