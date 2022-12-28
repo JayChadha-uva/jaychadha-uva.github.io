@@ -3,6 +3,9 @@
   color: #fff;
   background-color: transparent;
   opacity: 1;
+  text-decoration: underline;
+  text-decoration-color: #ff6e31;
+  text-underline-offset: 0.25em;
 }
 
 .nav-pills .nav-link {
@@ -13,4 +16,17 @@
 .nav-pills .nav-link:hover {
   color: #fff;
   opacity: 1;
+  text-decoration: underline;
+  text-decoration-color: #ff6e31;
+  text-underline-offset: 0.25em;
+}
+
+.job p {
+  margin: 0;
+  padding-bottom: 0.25em;
+}
+
+.job small {
+  opacity: 0.55;
+  font-size: smaller;
 }
