@@ -3,30 +3,34 @@
   color: #fff;
   background-color: transparent;
   opacity: 1;
-  text-decoration: underline;
-  text-decoration-color: #ff6e31;
-  text-underline-offset: 0.25em;
 }
 
 .nav-pills .nav-link {
   color: #fff;
   opacity: 0.55;
+  text-align: center;
 }
 
 .nav-pills .nav-link:hover {
   color: #fff;
   opacity: 1;
+}
+
+.job h4 {
+  margin-top: 0;
   text-decoration: underline;
   text-decoration-color: #ff6e31;
-  text-underline-offset: 0.25em;
+  text-underline-offset: 0.31em;
+  margin-bottom: 0.22em;
 }
 
 .job p {
   margin: 0;
+  font-size: smaller;
   padding-bottom: 0.25em;
 }
 
 .job small {
   opacity: 0.55;
-  font-size: smaller;
+  font-size: medium;
 }
