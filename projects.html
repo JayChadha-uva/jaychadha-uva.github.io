@@ -36,19 +36,19 @@
   >
     <nav
       class="navbar navbar-dark navbar-expand fixed-top py-4 fs-4"
-      style="background-color: tran; opacity: 0.99"
+      style="background-color: #2e4c6d; opacity: 0.99"
     >
       <div class="container-lg">
         <a
           class="navbar-brand fs-2"
-          href="/"
+          href="/portfolio/"
           style="font-weight: bold"
           > <u style="text-decoration-color:#FF6E31;text-underline-offset: 0.40em">Jay Chadha</u></a
         >
         <div class="navbar-nav fs-5">
-          <a class="nav-link px-4 active" href="/projects.html">Projects</i></a>
-          <a class="nav-link px-4" href="https://github.com/JayChadha-uva" target="_blank"><i class="fa fa-github"></i></a>
-          <a class="nav-link px-4" href="https://www.linkedin.com/in/jay-chadha/" target="_blank"
+          <a class="nav-link active" href="/portfolio/projects.html">Projects</i></a>
+          <a class="nav-link" href="https://github.com/JayChadha-uva" target="_blank"><i class="fa fa-github"></i></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/jay-chadha/" target="_blank"
             ><i class="fab fa-linkedin-in"></i
           ></a>
         </div>
@@ -65,187 +65,189 @@
 
       <div class="row m-0 py-0" style="min-height: 20vh"></div>
       <div class="container-lg fs-5 mb-5">
-        <div class="row">
-          <div
-            class="nav flex-column nav-pills pe-0 col-3"
-            id="v-pills-tab"
-            role="tablist"
-          >
-            <button
-              class="nav-link active text-start"
-              id="v-pills-home-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-home"
-              type="button"
-              role="tab"
-            >
-              DC Metro Tracker
-            </button>
-            <button
-              class="nav-link text-start"
-              id="v-pills-profile-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-profile"
-              type="button"
-              role="tab"
-            >
-              Personal Website
-            </button>
-            <button
-              class="nav-link text-start"
-              id="v-pills-messages-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-messages"
-              type="button"
-              role="tab"
-            >
-              DDoS Detector
-            </button>
-            <button
-              class="nav-link text-start"
-              id="v-pills-beatles-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-beatles"
-              type="button"
-              role="tab"
-            >
-              Interactive Analysis of The Beatles Discography
-            </button>
-            <button
-              class="nav-link text-start"
-              id="v-pills-course-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-course"
-              type="button"
-              role="tab"
-            >
-              UVA Schedule Builder
-            </button>
-            <button
-              class="nav-link text-start"
-              id="v-pills-traffic-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-traffic"
-              type="button"
-              role="tab"
-            >
-              Traffic Sign Recognition
-            </button>
-            <button
-              class="nav-link text-start"
-              id="v-pills-traffic-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-k2m"
-              type="button"
-              role="tab"
-            >
-              First Place K2M Innovation Design Challenge
-            </button>
-          </div>
-          <div class="tab-content col" id="v-pills-tabContent">
-            <div
-              class="tab-pane show active"
-              id="v-pills-home"
-              role="tabpanel"
-            >
-              <div class="job">
-                <div class="d-flex justify-content-between">
-                    <a href="https://jaychadha-uva.github.io/DCMetro-Tracker/?station=G03" target="_blank">
-                        <h4>DC Metro Tracker <i class="bi bi-arrow-up-right"></i></h4>
-                    </a>
-                    <a class="nav-link me-4" href="https://github.com/JayChadha-uva/DCMetro-Tracker" target="_blank"><i class="fa fa-github"></i></a>
-                </div>
-                
-                <small>December 2022</small>
-                <div class="mt-2">
-                  <p>Created a web application using the Washington Metropolitan Area Transit Authority (WMATA) Real-Time Rail Prediction, Station List, and Rail Service Incident API to track rail service in real-time. Arriving trains can be filtered by station and display the line as well as its estimated arrival time. A map and real-time service diruptions are also availble within the application.</p> 
-                    <small>Javascript, HTML, CSS, Bootstrap 5.2</small>
-                </div>
+
+          <div class="d-flex align-items-start">
+              <div
+                class="nav flex-column nav-pills pe-0 "
+                id="v-pills-tab"
+                role="tablist"
+              >
+                <button
+                  class="nav-link active text-start"
+                  id="v-pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-home"
+                  type="button"
+                  role="tab"
+                >
+                  DC Metro Tracker
+                </button>
+                <button
+                  class="nav-link text-start"
+                  id="v-pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-profile"
+                  type="button"
+                  role="tab"
+                >
+                  Personal Website
+                </button>
+                <button
+                  class="nav-link text-start"
+                  id="v-pills-messages-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-messages"
+                  type="button"
+                  role="tab"
+                >
+                  DDoS Detector
+                </button>
+                <button
+                  class="nav-link text-start"
+                  id="v-pills-beatles-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-beatles"
+                  type="button"
+                  role="tab"
+                >
+                  Interactive Analysis of The Beatles Discography
+                </button>
+                <button
+                  class="nav-link text-start"
+                  id="v-pills-course-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-course"
+                  type="button"
+                  role="tab"
+                >
+                  UVA Schedule Builder
+                </button>
+                <button
+                  class="nav-link text-start"
+                  id="v-pills-traffic-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-traffic"
+                  type="button"
+                  role="tab"
+                >
+                  Traffic Sign Recognition
+                </button>
+                <button
+                  class="nav-link text-start"
+                  id="v-pills-traffic-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-k2m"
+                  type="button"
+                  role="tab"
+                >
+                  First Place K2M Innovation Design Challenge
+                </button>
               </div>
-            </div>
-            <div class="tab-pane " id="v-pills-profile" role="tabpanel">
-                <div class="job">
+              <div class="tab-content " id="v-pills-tabContent">
+                <div
+                  class="tab-pane show active"
+                  id="v-pills-home"
+                  role="tabpanel"
+                >
+                  <div class="job">
                     <div class="d-flex justify-content-between">
-                        <a  href="/portfolio" target="_blank">
-                            <h4>Personal Website <i class="bi bi-arrow-up-right"></i></h4>
+                        <a style="text-decoration: none;" href="https://jaychadha-uva.github.io/DCMetro-Tracker/?station=G03" target="_blank">
+                            <h4>DC Metro Tracker <i class="bi bi-arrow-up-right"></i></h4>
                         </a>
-                        <a class="nav-link me-4" href="https://github.com/JayChadha-uva/portfolio" target="_blank"><i class="fa fa-github"></i></a>
+                        <a class="nav-link mx-1" href="https://github.com/JayChadha-uva/DCMetro-Tracker" target="_blank"><i class="fa fa-github"></i></a>
                     </div>
-                    
+              
                     <small>December 2022</small>
                     <div class="mt-2">
-                      <p>The website you are on now. Made with ❤️ in Virginia.</p> 
-                        <small>HTML, CSS, Bootstrap 5.2</small>
+                      <p>Created a web application using the Washington Metropolitan Area Transit Authority (WMATA) Real-Time Rail Prediction, Station List, and Rail Service Incident API to track rail service in real-time. Arriving trains can be filtered by station and display the line as well as its estimated arrival time. A map and real-time service diruptions are also availble within the application.</p>
+                        <small>Javascript, HTML, CSS, Bootstrap 5.2</small>
                     </div>
                   </div>
-            </div>
-            <div class="tab-pane " id="v-pills-messages" role="tabpanel">
-                <div class="job">
-                    <div class="d-flex justify-content-between">
-                            <h4>DDoS Detector</h4>
-                        <a class="nav-link me-4" href="https://github.com/JayChadha-uva/DDoS-Detector" target="_blank"><i class="fa fa-github"></i></a>
-                    </div>
-                    <small>November - December 2022 </small>
-                    <div class="mt-2">
-                      <p>Using two datasets modeled after different DDoS attacks, a python program was developed to detect if a DDoS attack is present within a PCAP file. Six different DDoS attack types were implemented and tested on a dozen different PCAP files.</p> 
-                        <small>Python, DPKT, Wireshark</small>
-                    </div>
+                </div>
+                <div class="tab-pane " id="v-pills-profile" role="tabpanel">
+                    <div class="job">
+                        <div class="d-flex justify-content-between">
+                            <a style="text-decoration: none;" href="/portfolio" target="_blank">
+                                <h4>Personal Website <i class="bi bi-arrow-up-right"></i></h4>
+                            </a>
+                            <a class="nav-link mx-1" href="https://github.com/JayChadha-uva/portfolio" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+              
+                        <small>December 2022</small>
+                        <div class="mt-2">
+                          <p>The website you are on now. Made with ❤️ in Virginia.</p>
+                            <small>HTML, CSS, Bootstrap 5.2</small>
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane " id="v-pills-messages" role="tabpanel">
+                    <div class="job">
+                        <div class="d-flex justify-content-between">
+                                <h4>DDoS Detector</h4>
+                            <a class="nav-link mx-1" href="https://github.com/JayChadha-uva/DDoS-Detector" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+                        <small>November - December 2022 </small>
+                        <div class="mt-2">
+                          <p>Using two datasets modeled after different DDoS attacks, a python program was developed to detect if a DDoS attack is present within a PCAP file. Six different DDoS attack types were implemented and tested on a dozen different PCAP files.</p>
+                            <small>Python, DPKT, Wireshark</small>
+                        </div>
+                      </div>
                   </div>
-              </div>
-              <div class="tab-pane " id="v-pills-beatles" role="tabpanel">
-                <div class="job">
-                    <div class="d-flex justify-content-between">
-                        <a href="https://jchadha.shinyapps.io/FinalProject/" target="_blank">
-                            <h4>Interactive Analysis of The Beatles Discography <i class="bi bi-arrow-up-right"></i></h4>
-                        </a>
-                        <a class="nav-link me-4" href="https://github.com/JayChadha-uva/The-Beatles-Analysis" target="_blank"><i class="fa fa-github"></i></a>
-                    </div>
-                    <small>November - December 2022 </small>
-                    <div class="mt-2">
-                      <p>Using a dataset centered around The Beatles discography on Spotify, interactive charts were constructed and deployed as a Shiny app. The interactive charts pull from 7 of the 17 available variables in the dataset and allow the user to customize the data that is displayed.</p> 
-                        <small>R, Shiny.io, ggplot2, dplyr</small>
-                    </div>
+                  <div class="tab-pane " id="v-pills-beatles" role="tabpanel">
+                    <div class="job">
+                        <div class="d-flex justify-content-between">
+                            <a style="text-decoration: none;" href="https://jchadha.shinyapps.io/FinalProject/" target="_blank">
+                                <h4>Interactive Analysis of The Beatles Discography <i class="bi bi-arrow-up-right"></i></h4>
+                            </a>
+                            <a class="nav-link mx-1" href="https://github.com/JayChadha-uva/The-Beatles-Analysis" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+                        <small>November - December 2022 </small>
+                        <div class="mt-2">
+                          <p>Using a dataset centered around The Beatles discography on Spotify, interactive charts were constructed and deployed as a Shiny app. The interactive charts pull from 7 of the 17 available variables in the dataset and allow the user to customize the data that is displayed.</p>
+                            <small>R, Shiny.io, ggplot2, dplyr</small>
+                        </div>
+                      </div>
                   </div>
-              </div>
-              <div class="tab-pane " id="v-pills-course" role="tabpanel">
-                <div class="job">
-                    <h4>UVA Schedule Builder</h4>
-                    <small>August - December 2022 </small>
-                    <div class="mt-2">
-                      <p>Using Django a web application was constructed enabling users to browse courses in the UVA course catalog and create schedules saved to their profiles. Course data was fetched from a UVA API. Users could create accounts using Google Sign on, find and make friends, view their friends schedules, and comment on their friends schedules. Data such as schedules, friends, and profiles were stored in a postgres database deployed on Heroku.</p> 
-                      <p>*Note the repo and site are private, due to UVA's policies. I am happy to chat about the project!</p>  
-                      <small>Python, Django, Postgres, Heroku, Google Authentication, HTML, CSS, Bootstrap</small>
-                    </div>
+                  <div class="tab-pane " id="v-pills-course" role="tabpanel">
+                    <div class="job">
+                        <h4>UVA Schedule Builder</h4>
+                        <small>August - December 2022 </small>
+                        <div class="mt-2">
+                          <p>Using Django a web application was constructed enabling users to browse courses in the UVA course catalog and create schedules saved to their profiles. Course data was fetched from a UVA API. Users could create accounts using Google Sign on, find and make friends, view their friends schedules, and comment on their friends schedules. Data such as schedules, friends, and profiles were stored in a postgres database deployed on Heroku.</p>
+                          <p>*Note the repo and site are private, due to UVA's policies. I am happy to chat about the project!</p>
+                          <small>Python, Django, Postgres, Heroku, Google Authentication, HTML, CSS, Bootstrap</small>
+                        </div>
+                      </div>
                   </div>
-              </div>
-              <div class="tab-pane " id="v-pills-traffic" role="tabpanel">
-                <div class="job">
-                            <h4>Traffic Sign Recognition</h4>
-                    <small>August 2019 - March 2020 </small>
-                    <div class="mt-2">
-                      <p>Created a machine learning project using Keras with PlaidML in python; built a vision based convolutional neural network for image recognition.Built a network to identify and classify various road work signs vehicles would encounter in construction zones. Targeted towards vehicles which have begun the transition to full autonomy. Project development ended abruptly with an initial model created due to COVID-19 and school closure.</p> 
-                        <small>Machine Learning, Python, Keras, PlaidML</small>
-                    </div>
+                  <div class="tab-pane " id="v-pills-traffic" role="tabpanel">
+                    <div class="job">
+                                <h4>Traffic Sign Recognition</h4>
+                        <small>August 2019 - March 2020 </small>
+                        <div class="mt-2">
+                          <p>Created a machine learning project using Keras with PlaidML in python; built a vision based convolutional neural network for image recognition.Built a network to identify and classify various road work signs vehicles would encounter in construction zones. Targeted towards vehicles which have begun the transition to full autonomy. Project development ended abruptly with an initial model created due to COVID-19 and school closure.</p>
+                            <small>Machine Learning, Python, Keras, PlaidML</small>
+                        </div>
+                      </div>
                   </div>
-              </div>
-              <div class="tab-pane " id="v-pills-k2m" role="tabpanel">
-                <div class="job">
-                    <div class="d-flex justify-content-between">
-                        <a href="https://www.loudountimes.com/news/loudoun-aet-students-partner-with-k2m-to-develop-spinal-solutions/article_1e6b3b49-2177-5e43-a483-6e8caa661e2a.html" target="_blank">
-                            <h4>First Place K2M Innovation Design Challenge - ScanScoli <i class="bi bi-arrow-up-right"></i></h4>
-                        </a>
-                    </div>
-                    <small>September 2016 - May 2017 </small>
-                    <div class="mt-2">
-                      <p>In partnership with K2M, a scoliosis solutions company, prototyped a potential solution detecting early signs of scoliosis in patients using Google's Project Tango LIDAR solution and optical cameras. Designed an AI determining if a patient is showing signs of scoliosis earlier on than what can be seen by the human eye. Information would be used by doctors recommending the patient get an X-ray to get a more detailed look. Presented the solution to a panel of executives at K2M and won first place at the Innovation Challenge.</p> 
-                        <small>Google Project Tango, LiDAR</small>
-                    </div>
+                  <div class="tab-pane " id="v-pills-k2m" role="tabpanel">
+                    <div class="job">
+                        <div class="d-flex justify-content-between">
+                            <a style="text-decoration: none;" href="https://www.loudountimes.com/news/loudoun-aet-students-partner-with-k2m-to-develop-spinal-solutions/article_1e6b3b49-2177-5e43-a483-6e8caa661e2a.html" target="_blank">
+                                <h4>First Place K2M Innovation Design Challenge - ScanScoli <i class="bi bi-arrow-up-right"></i></h4>
+                            </a>
+                        </div>
+                        <small>September 2016 - May 2017 </small>
+                        <div class="mt-2">
+                          <p>In partnership with K2M, a scoliosis solutions company, prototyped a potential solution detecting early signs of scoliosis in patients using Google's Project Tango LIDAR solution and optical cameras. Designed an AI determining if a patient is showing signs of scoliosis earlier on than what can be seen by the human eye. Information would be used by doctors recommending the patient get an X-ray to get a more detailed look. Presented the solution to a panel of executives at K2M and won first place at the Innovation Challenge.</p>
+                            <small>Google Project Tango, LiDAR</small>
+                        </div>
+                      </div>
                   </div>
+                  </div>
+                </div>
               </div>
-              </div>
-            </div>
           </div>
-        </div>
+              </div>
       </div>
     </body>
     <script
