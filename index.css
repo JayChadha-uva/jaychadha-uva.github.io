@@ -37,9 +37,21 @@
 
 .job a {
   color: #fff;
+  font-size: medium;
+  text-decoration: none;
   opacity: 1;
 }
 
 .job a:hover {
+  opacity: 0.55;
+}
+
+.gitLink a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.gitLink a:hover {
   opacity: 0.55;
 }
