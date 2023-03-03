@@ -37,9 +37,10 @@
 
 .job a {
   color: #fff;
-  font-size: medium;
+  font-size: large;
   text-decoration: none;
   opacity: 1;
+  transition: 0.3s ease;
 }
 
 .job a:hover {
@@ -50,6 +51,7 @@
   color: #fff;
   text-decoration: none;
   opacity: 1;
+  transition: 0.3s ease;
 }
 
 .gitLink a:hover {
