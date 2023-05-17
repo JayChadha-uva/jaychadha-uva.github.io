@@ -47,6 +47,21 @@
   opacity: 0.55;
 }
 
+.job-dl a {
+  color: black;
+  padding: 0.45em;
+  border-radius: 0.5em;
+  background-color: #fff;
+  font-size: large;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.job-dl a:hover {
+  opacity: 0.55;
+}
+
 .gitLink a {
   color: #fff;
   text-decoration: none;
